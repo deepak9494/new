@@ -35,7 +35,7 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: eu-north-1
-          function_name: smart
+          function_arn: arn:aws:lambda:eu-north-1:476114128104:function:smart
           zip_file: backend-lambda.zip
           handler: server.handler   # <-- Update if needed
           runtime: nodejs18.x
