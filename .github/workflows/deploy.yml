@@ -37,5 +37,5 @@ jobs:
           aws_region: ap-south-1
           function_name: deepak
           zip_file: backend-lambda.zip
-          handler: lambda.handler
+          handler: server.handler   # <-- Update if needed
           runtime: nodejs18.x
