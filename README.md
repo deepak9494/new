@@ -23,11 +23,10 @@ This repository captures the end-to-end DevOps workflow I implemented during my 
 - ✅ Successfully accessed and tested the live Spring Boot application running on Kubernetes  
 
 ---
+
 ## 🛠️ **Detailed Workflow**
 
 <img src="flow.png" alt="Workflow Diagram" width="720" />
-
-
 
 ### 1️⃣ Spring Boot REST API Development  
 Built a fully functional CRUD REST API using Java Spring Boot framework.
@@ -57,18 +56,22 @@ Installed Fluent Bit via Helm to capture and forward container logs into AWS Clo
 ### 8️⃣ Monitoring with Prometheus & Grafana  
 Deployed Prometheus and Grafana using Helm charts, and imported custom dashboards to monitor cluster and app metrics effectively.
 
-🛠️ Technologies & Tools Used
-Technology	Purpose
-Java Spring Boot	REST API development
-Docker	Containerization
-Terraform	Infrastructure as Code (IaC)
-AWS EKS	Managed Kubernetes cluster
-EC2 Jump Server	Secure cluster access
-Kubernetes	Container orchestration
-GitHub Actions	CI/CD automation
-Amazon ECR	Docker image registry
-Fluent Bit	Log forwarding to CloudWatch
-AWS CloudWatch	Centralized logging and metrics
-Helm	Kubernetes package manager
-Prometheus	Monitoring
-Grafana	Visualization and dashboards
+---
+
+## 🛠️ Technologies & Tools Used
+
+| Technology      | Purpose                         |
+|-----------------|--------------------------------|
+| Java Spring Boot | REST API development           |
+| Docker          | Containerization               |
+| Terraform       | Infrastructure as Code (IaC)   |
+| AWS EKS         | Managed Kubernetes cluster     |
+| EC2 Jump Server | Secure cluster access          |
+| Kubernetes      | Container orchestration        |
+| GitHub Actions  | CI/CD automation               |
+| Amazon ECR      | Docker image registry          |
+| Fluent Bit      | Log forwarding to CloudWatch   |
+| AWS CloudWatch  | Centralized logging and metrics|
+| Helm            | Kubernetes package manager     |
+| Prometheus      | Monitoring                    |
+| Grafana         | Visualization and dashboards   |
