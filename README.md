@@ -25,7 +25,7 @@ This repository captures the end-to-end DevOps workflow I implemented during my 
 ---
 ## 🛠️ **Detailed Workflow**
 
-<img src="assets/flow.png" alt="Workflow Diagram" width="800" />
+<img src="flow.png" alt="Workflow Diagram" width="800" />
 
 ### 1️⃣ Spring Boot REST API Development  
 Built a fully functional CRUD REST API using Java Spring Boot framework.
